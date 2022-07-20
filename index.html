@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Ping coming soon page</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+</head>
+<body>
+
+  <header>
+    <div class="head--logo">
+      <a href="#"><img src="./images/logo.svg" alt="PING logo"></a>
+    </div>
+    <h1 class="head--title">We are launching <span>soon!</span></h1>
+    <p class="head--desc">Subscribe and get notified</p>
+  </header>
+
+  <main>
+
+    <div class="form-section">
+      <form name="form1" action="#" novalidate>
+          <div class="input">
+            <input type="email" id="email" placeholder="Your email address..." required/>
+            <p class="error-msg" id="error">Please provide a vaild email address</p>
+          </div>
+          <button class="notify">Notify Me</button>
+      </form>
+    </div>
+
+    <figure class="main-illstration">
+      <img src="./images/illustration-dashboard.png" alt="Dashboard illustration">
+    </figure>
+
+  </main>
+
+  <footer>
+    <div class="footer">
+      <div role="list" aria-label="Social links" class="social-icons">
+        <div class="icon-border"><i class="fab fa-facebook-f"></i></div>
+        <div class="icon-border"><i class="fab fa-twitter"></i></div>
+        <div class="icon-border"><i class="fab fa-instagram"></i></div>
+      </div>
+      <p>&copy; Copyright Ping. All rights reserved.</p>
+    </div>
+
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">montyaction</a>.
+    </p>
+  </footer>
+
+  <script src="formEmailValidation.js"></script>
+</body>
+</html>
